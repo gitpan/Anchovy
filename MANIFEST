@@ -1,0 +1,9 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Anchovy.pm
+lib/Anchovy/Intro.pm
+t/00-load.t
+t/pod-coverage.t
+t/pod.t

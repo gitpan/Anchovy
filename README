@@ -1,0 +1,54 @@
+Anchovy
+
+Anchovy is (or will be) a Perl WebMail App.  As a CGI::Application
+user, it will run happily under mod_perl, FastCGI and as a plain old
+CGI script.  It will by default use IMAP[S] for authentication as well
+as mail access, though it should be possible to create plugins for 
+authentication or to allow other mail access methods (for example, 
+reading from the file system where it runs on the mail spool server).
+
+For right now, installing and using this module will do exactly
+nothing.  Code and content will be forthcoming in the days and weeks
+to follow.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Anchovy::Intro
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Anchovy
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Anchovy
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Anchovy
+
+    Search CPAN
+        http://search.cpan.org/dist/Anchovy/
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 James Wright
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
